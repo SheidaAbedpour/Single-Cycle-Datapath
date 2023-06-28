@@ -16,11 +16,11 @@ module DataMemory
 	 reg [15:0] memo_array [memo_array_size - 1: 0];
 	 integer i;
 	 
-	 initial begin
-				for(i = 0; i < memo_array_size; i = i + 1) begin
-						memo_array[i] <= 16'd0;
-					end
-				end
+	// initial begin
+		//		for(i = 0; i < memo_array_size; i = i + 1) begin
+			//			memo_array[i] <= 16'd0;
+				//	end
+			//	end
 				
 				
 		always@(posedge clk) begin
